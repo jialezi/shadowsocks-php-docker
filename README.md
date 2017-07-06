@@ -20,7 +20,7 @@ ENV n=50 （启动多少进程）
 ```
 docker run -d -p 22:22 -p 80:80 -p 443:443 jialezi/shadowsocks-php
 
-docker run -d -p 22:22 -p 80:80 -p 443:443 -e m=jialezi -e p 443 -e n=30 jialezi/shadowsocks-php
+docker run -d -p 22:22 -p 80:80 -p 443:443 -e k=jialezi -e p 443 -e n=30 jialezi/shadowsocks-php
 ```
 ### nginx && php5.5
 
