@@ -10,4 +10,4 @@ $PORT = 443;
 // 客户端端口
 $LOCAL_PORT = 1080;
 // 启动多少进程
-$PROCESS_COUNT = 50;
+$PROCESS_COUNT = 10;
